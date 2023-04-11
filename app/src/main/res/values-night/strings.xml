@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_of_splash">ONLINE NOTE</string>
+    <string name="don_t_have_an_account">don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="todo">TODO</string>
+    <string name="log_out">Log Out</string>
+</resources>

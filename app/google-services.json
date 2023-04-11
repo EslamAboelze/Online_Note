@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699154218398",
+    "project_id": "noteonline-b632e",
+    "storage_bucket": "noteonline-b632e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699154218398:android:135b8840ae7eae5a436a8f",
+        "android_client_info": {
+          "package_name": "com.example.noteonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699154218398-ti1lqdsknaoq9r05o6qse619igljl05q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWfWkD4p4Fk9_Xg7beT2f0ad7D0eDnVWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699154218398-ti1lqdsknaoq9r05o6qse619igljl05q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

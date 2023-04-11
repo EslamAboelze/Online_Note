@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_component"
+    app:startDestination="@id/homeFrag">
+
+    <fragment
+        android:id="@+id/homeFrag"
+        android:name="com.example.noteonline.ui.uifragment.HomeFrag"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFrag_to_descriptionNote"
+            app:destination="@id/descriptionNote" />
+        <action
+            android:id="@+id/action_homeFrag_to_logInFrag"
+            app:destination="@id/logInFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionNote"
+        android:name="com.example.noteonline.ui.uifragment.DescriptionNote"
+        android:label="fragment_description_note"
+        tools:layout="@layout/fragment_description_note" >
+        <action
+            android:id="@+id/action_descriptionNote_to_homeFrag"
+            app:destination="@id/homeFrag" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="content"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFrag"
+        android:name="com.example.noteonline.ui.authfragment.LogInFrag"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logInFrag_to_homeFrag"
+            app:destination="@id/homeFrag" />
+        <action
+            android:id="@+id/action_logInFrag_to_signUpFrag"
+            app:destination="@id/signUpFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFrag"
+        android:name="com.example.noteonline.ui.SignUpFrag"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFrag_to_logInFrag"
+            app:destination="@id/logInFrag" />
+    </fragment>
+</navigation>
